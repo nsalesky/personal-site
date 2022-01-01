@@ -1,0 +1,34 @@
+#nav-container {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+#nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: green;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+.nav-link:active {
+  color: red;
+}
