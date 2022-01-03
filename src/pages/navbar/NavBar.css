@@ -1,6 +1,7 @@
 #nav-container {
-  /* display: flex;
-  flex-direction: row; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #nav-links {
@@ -9,26 +10,34 @@
   justify-content: space-between;
   align-items: center;
 
+  width: 40%;
+
   list-style: none;
 }
 
 .nav-item {
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .nav-link {
   text-decoration: none;
+  font-size: 25px;
 }
 
-.nav-link:link,
+.nav-link:link {
+  color: #1a374d;
+}
+
 .nav-link:visited {
-  color: green;
+  color: #1a374d;
+  font-weight: bold;
 }
 
 .nav-link:hover {
-  color: blue;
+  color: #1a374d;
 }
 
 .nav-link:active {
-  color: red;
+  color: #1a374d;
+  font-weight: 500;
 }

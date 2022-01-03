@@ -2,14 +2,12 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import Navigation from "./Navigation";
+import { NavBar } from "../navbar/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navigation />
-      </header>
+      <NavBar />
 
       <p>Site is currently in construction</p>
     </div>
